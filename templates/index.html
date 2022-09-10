@@ -6,8 +6,8 @@
     </head>
     <body>
         <div class="container">
-            <h1>Jovian Careers</h1>
-            <div class="hero">
+            <h1>{{company_name}} Careers</h1>
+            <div class="hero full-bg">
                 <div class="hero-text">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam eveniet voluptatibus 
                     ipsa consequatur delectus, distinctio, iste iusto magni atque numquam totam accusantium, 
@@ -18,11 +18,24 @@
                 </div>
             </div>
             <h2>Open positions</h2>
-            <p>TO DO - fill the job position details</p>
+                {% for job in jobs %}
+                <div class="list-jobs">
+                    <h4>{{job['title']}}</h4>
+                    <p><strong>Location:</strong> {{job['location']}}</p>
+
+                    {% if 'salary' in job %}
+
+                    <p><strong>Salary:</strong> {{job['salary']}}</p>
+
+                    {% endif %}
+
+                    <button class="apply-btn">Apply</button>
+                </div>
+                {% endfor %}
             <div class="cta-btn">
                 <button class="contact-btn">Contact Us</button>
             </div>
-            <p class="footer">&copy; 2022 Jovian Inc.</p>
+            <p class="footer full-bg">&copy; 2022 Jovian Inc.</p>
         </div>
     </body>
 </html>

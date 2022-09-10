@@ -4,6 +4,9 @@ body {
 }
 
 
+
+
+
 .container {
     max-width: 1120px;
     margin: 0 auto;
@@ -14,7 +17,11 @@ body {
     display: flex;
     align-content: center;
     background-color: rgb(31 41 55);
-    width: 100%;
+}
+
+.full-bg {
+    box-shadow: 0 0 0 100vmax rgb(31 41 55);
+    clip-path: inset(0 -100vmax);
 }
 
 .hero-text {
@@ -34,6 +41,13 @@ h1 {
     margin-bottom: 80px;
 }
 
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
 h1,
 h2 {
     text-align: center;
@@ -43,9 +57,11 @@ h2 {
 
 .cta-btn {
     text-align: center;
+    margin-top: 40px;
 }
 
-.contact-btn {
+.contact-btn,
+.apply-btn {
     border:none;
     border-radius: 5px;
     background-color: blue;
@@ -55,4 +71,16 @@ h2 {
 
 .footer {
     text-align: center;
+    padding: 20px 0;
+    background-color:rgb(31 41 55);
+    color: white;
+    margin-bottom: 0;
 }
+
+
+.list-jobs {
+    padding-bottom: 15px;
+    border-bottom: 1px solid darkgray;
+}
+
+
