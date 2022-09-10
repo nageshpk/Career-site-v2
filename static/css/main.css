@@ -66,8 +66,7 @@ h4 {
     margin-bottom: 40px;
 }
 
-.contact-btn,
-.apply-btn {
+.contact-btn {
     border:none;
     border-radius: 5px;
     background-color: blue;
@@ -76,8 +75,21 @@ h4 {
 }
 
 .apply-btn {
+    border: 0.8px solid blue;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
     margin-top: 75%;
 }
+
+
+.apply-btn:hover,
+.apply-btn:focus,
+.apply-btn:after {
+    background-color: blue;
+    color: white;
+}
+
 
 .footer {
     text-align: center;
