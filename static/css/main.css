@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* layout */
 
 .hero {
     background-color: rgb(31 41 55);
@@ -20,35 +21,6 @@ img {
     max-width: 320px;
     height: 100%;
     object-fit: cover;
-}
-
-h1 {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    color: white;
-}
-
-
-h2 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-h1,
-h2 {
-    text-align: center;
-    font-weight: 500;
-}
-
-h3,
-h4 {
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 18px;
-    font-weight: 900;
 }
 
 
@@ -100,3 +72,35 @@ h4 {
 .navbar a {
     color: white;
 }
+
+/* Typography */
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
