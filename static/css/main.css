@@ -40,6 +40,10 @@ img {
     border-bottom: 1px solid darkgray;
 }
 
+.main {
+    margin-bottom: 40px;
+}
+
 
 .hero-text {
     margin: 20px 0;
@@ -86,9 +90,8 @@ img {
 
 
 h2 {
-    margin-top: 80px;
+    padding-bottom: 40px;
 }
-
 
 h1,
 h2 {
