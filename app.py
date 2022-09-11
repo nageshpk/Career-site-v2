@@ -37,9 +37,9 @@ def hello():
     return render_template('index.html', jobs=JOBS, company_name='Jovian')
 
 
-# @app.route("/jobdetails")
-# def job_details():
-#     return render_template('/jobdetails.html', jobs=JOBS)
+@app.route("/jobdetails")
+def job_details():
+    return render_template('/jobdetails.html', jobs=JOBS)
 
 
 
