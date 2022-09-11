@@ -15,7 +15,6 @@ body {
 .full-bg {
     box-shadow: 0 0 0 100vmax rgb(31 41 55);
     clip-path: inset(0 -100vmax);
-    margin-bottom: 40px;
 }
 
 
