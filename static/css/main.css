@@ -98,3 +98,11 @@ h4 {
     text-align: center;
     padding: 20px;
 }
+
+.navbar {
+    background-color: rgb(31 41 55);
+}
+
+.navbar a {
+    color: white;
+}
