@@ -120,6 +120,29 @@ h4 {
 }
 
 .fill-details {
-    width: 400px;
-    /* margin: 0 auto; */
+    width: 800px;
+    margin: 0 auto;
+}
+
+#job-page h4,
+#job-page p {
+    color: white;
+}
+
+#apply {
+    text-align: center;
+}
+
+.form-title {
+    font-weight: bold;
+    /* margin-bottom:  */
+}
+
+.custom-inp {
+    border: none !important;
+}
+
+.inp-name {
+    color: darkgray;
+    font-size: 14px;
 }
