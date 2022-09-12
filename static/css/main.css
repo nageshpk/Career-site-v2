@@ -37,7 +37,8 @@ img {
     justify-content: space-between;
     align-content: center;
     padding-bottom: 15px;
-    border-bottom: 1px solid darkgray;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .main {
