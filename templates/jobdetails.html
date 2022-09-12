@@ -24,32 +24,51 @@
                     <a class="btn btn-primary btn-sm" href="#" role="button">Apply</a>
                 </div>
             </div>
+            <div>
+                <a href="/">back to jobs</a>
+            </div>
                 <div>
                     <div>
                         <h5>Requirements</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quisquam, tempora alias? Asperiores blanditiis voluptate minus 
-                            dolorem eos id consequatur eaque iusto illum quos ducimus, 
-                            totam fuga facere sunt! Eos, ea!</p>
+                        <div>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div>
                         <h5>Responsibilities</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Saepe id voluptate iure architecto laborum tenetur ab ducimus, pariatur 
-                            eligendi quam assumenda. 
-                            In error eos nisi aspernatur fugiat exercitationem quaerat eveniet.</p>
+                        <div>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <h5>Application</h5>
-                    <div class="row">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                    </div>
+                <div class="fill-details shadow p-3 mb-5 bg-body rounded">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter first name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter last name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Enter email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="" class="form-label">Resume</label>
+                        <input class="btn btn-outline-light" type="file" id="myFile" name="filename">
+                      </div>
+                      <input class="btn btn-outline-primary" type="submit" name="Submit" value="Submit">
                 </div>
             <div>
                 {% include 'footer.html' %}

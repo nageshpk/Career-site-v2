@@ -118,3 +118,8 @@ h4 {
     font-weight: normal;
     color: gray;
 }
+
+.fill-details {
+    width: 400px;
+    /* margin: 0 auto; */
+}
