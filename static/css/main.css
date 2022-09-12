@@ -120,7 +120,7 @@ h4 {
 }
 
 .fill-details {
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -135,14 +135,18 @@ h4 {
 
 .form-title {
     font-weight: bold;
-    /* margin-bottom:  */
 }
 
 .custom-inp {
     border: none !important;
+    color: lightgrey;
 }
 
 .inp-name {
-    color: darkgray;
+    color: gray;
     font-size: 14px;
+}
+
+.spacing {
+    margin-top: 20px;
 }
